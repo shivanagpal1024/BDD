@@ -1,0 +1,29 @@
+{
+  "azure_info": {
+    "url": "",
+    "username": "",
+    "password": "",
+    "project": "",
+    "product": "",
+    "result_execution": "",
+    "defect_creation": "",
+    "email_execution": "",
+    "tool": "",
+    "email_list": [
+      ""
+    ]
+  },
+  "tests_map": [
+    {
+      "test_plan_id": "",
+      "testcase_result_map": [
+        {
+          "test_suite_id": "",
+          "testcase_id": [
+            "ALL"
+          ]
+        }
+      ]
+    }
+  ]
+}
