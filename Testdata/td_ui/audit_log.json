@@ -1,0 +1,116 @@
+{
+    "Logs": [
+        {
+            "TC_ID": "TC_Audit_Check_001",
+            "Name": "TIMELINE",
+            "snow_query": "SELECT DISTINCT MAX(DATA_AS_OF_DATE) AS DATA_AS_OF_DATE FROM COM_US_PHARMA_NGE_PRV.PHARMA_NGE_C360.C360_EVENT_TIMELINE",
+            "Master Scenario Name": "MASTER_SCENARIO_WEEKLY_REFRESH",
+            "Scenario Name": "EVENT_TIMELINE_SCENARIO",
+            "Dependency Flag": "Y"
+        },
+        {
+            "TC_ID": "TC_Audit_Check_002",
+            "Name": "TIMELINE_HIST",
+            "snow_query": "SELECT DISTINCT MAX(DATA_AS_OF_DATE) AS DATA_AS_OF_DATE FROM COM_US_PHARMA_NGE_PRV.PHARMA_NGE_C360.C360_EVENT_TIMELINE_HIST",
+            "Master Scenario Name": "MASTER_SCENARIO_WEEKLY_REFRESH",
+            "Scenario Name": "EVENT_TIMELINE_SCENARIO",
+            "Dependency Flag": "Y"
+        },
+        {
+            "TC_ID": "TC_Audit_Check_003",
+            "Name": "SOCIAL_MEDIA_PROFILE",
+            "snow_query": "SELECT DISTINCT MAX(DATA_AS_OF_DATE) AS DATA_AS_OF_DATE FROM COM_US_PHARMA_NGE_PRV.PHARMA_NGE_C360.C360_SOCIAL_MEDIA_PROFILE",
+            "Master Scenario Name": "MASTER_SCENARIO_WEEKLY_REFRESH",
+            "Scenario Name": "SOCIAL_MEDIA_PROFILE_SCENARIO",
+            "Dependency Flag": "Y"
+        },
+        {
+            "TC_ID": "TC_Audit_Check_004",
+            "Name": "SOCIAL_MEDIA_PROFILE_HIST",
+            "snow_query": "SELECT DISTINCT MAX(DATA_AS_OF_DATE) AS DATA_AS_OF_DATE FROM COM_US_PHARMA_NGE_PRV.PHARMA_NGE_C360.C360_SOCIAL_MEDIA_PROFILE_HIST",
+            "Master Scenario Name": "MASTER_SCENARIO_WEEKLY_REFRESH",
+            "Scenario Name": "SOCIAL_MEDIA_PROFILE_SCENARIO",
+            "Dependency Flag": "Y"
+        },
+        {
+            "TC_ID": "TC_Audit_Check_005",
+            "Name": "CONTENT_THEME",
+            "snow_query": "SELECT DISTINCT MAX(DATA_AS_OF_DATE) AS DATA_AS_OF_DATE FROM COM_US_PHARMA_NGE_PRV.PHARMA_NGE_C360.C360_CONTENT_THEME",
+            "Master Scenario Name": "MASTER_SCENARIO_WEEKLY_REFRESH",
+            "Scenario Name": "TOP3_CONTENT_THEMES_SCENARIO",
+            "Dependency Flag": "Y"
+        },
+        {
+            "TC_ID": "TC_Audit_Check_006",
+            "Name": "CONTENT_THEME_HIST",
+            "snow_query": "SELECT DISTINCT MAX(DATA_AS_OF_DATE) AS DATA_AS_OF_DATE FROM COM_US_PHARMA_NGE_PRV.PHARMA_NGE_C360.C360_CONTENT_THEME_HIST",
+            "Master Scenario Name": "MASTER_SCENARIO_WEEKLY_REFRESH",
+            "Scenario Name": "TOP3_CONTENT_THEMES_SCENARIO",
+            "Dependency Flag": "Y"
+        },
+        {
+            "TC_ID": "TC_Audit_Check_007",
+            "Name": "CHANNEL_RESPONSIVENESS",
+            "snow_query": "SELECT DISTINCT MAX(DATA_AS_OF_DATE) AS DATA_AS_OF_DATE FROM COM_US_PHARMA_NGE_PRV.PHARMA_NGE_C360.C360_CHANNEL_RESPONSIVENESS",
+            "Master Scenario Name": "MASTER_SCENARIO_WEEKLY_REFRESH",
+            "Scenario Name": "CHANNEL_RESPONSIVENESS_SCENARIO",
+            "Dependency Flag": "Y"
+        },
+        {
+            "TC_ID": "TC_Audit_Check_008",
+            "Name": "CHANNEL_RESPONSIVENESS_HIST",
+            "snow_query": "SELECT DISTINCT MAX(DATA_AS_OF_DATE) AS DATA_AS_OF_DATE FROM COM_US_PHARMA_NGE_PRV.PHARMA_NGE_C360.C360_CHANNEL_RESPONSIVENESS_HIST",
+            "Master Scenario Name": "MASTER_SCENARIO_WEEKLY_REFRESH",
+            "Scenario Name": "CHANNEL_RESPONSIVENESS_SCENARIO",
+            "Dependency Flag": "Y"
+        },
+        {
+            "TC_ID": "TC_Audit_Check_009",
+            "Name": "RESEARCH_ACTIVITY",
+            "snow_query": "SELECT DISTINCT MAX(DATA_AS_OF_DATE) AS DATA_AS_OF_DATE FROM COM_US_PHARMA_NGE_PRV.PHARMA_NGE_C360.C360_RESEARCH_ACTIVITY",
+            "Master Scenario Name": "MASTER_SCENARIO_WEEKLY_REFRESH",
+            "Scenario Name": "RESEARCH_ACTIVITY_SCENARIO",
+            "Dependency Flag": "Y"
+        },
+        {
+            "TC_ID": "TC_Audit_Check_010",
+            "Name": "RESEARCH_ACTIVITY_HIST",
+            "snow_query": "SELECT DISTINCT MAX(DATA_AS_OF_DATE) AS DATA_AS_OF_DATE FROM COM_US_PHARMA_NGE_PRV.PHARMA_NGE_C360.C360_RESEARCH_ACTIVITY_HIST",
+            "Master Scenario Name": "MASTER_SCENARIO_WEEKLY_REFRESH",
+            "Scenario Name": "RESEARCH_ACTIVITY_SCENARIO",
+            "Dependency Flag": "Y"
+        },
+        {
+            "TC_ID": "TC_Audit_Check_011",
+            "Name": "BEHAVIORAL_INDICATOR",
+            "snow_query": "SELECT DISTINCT MAX(DATA_AS_OF_DATE) AS DATA_AS_OF_DATE FROM COM_US_PHARMA_NGE_PRV.PHARMA_NGE_C360.C360_BEHAVIORAL_INDICATOR",
+            "Master Scenario Name": "MASTER_SCENARIO_WEEKLY_REFRESH",
+            "Scenario Name": "BEHAVIORAL_INDICATOR_SCENARIO",
+            "Dependency Flag": "Y"
+        },
+        {
+            "TC_ID": "TC_Audit_Check_012",
+            "Name": "BEHAVIORAL_INDICATOR_HIST",
+            "snow_query": "SELECT DISTINCT MAX(DATA_AS_OF_DATE) AS DATA_AS_OF_DATE FROM COM_US_PHARMA_NGE_PRV.PHARMA_NGE_C360.C360_BEHAVIORAL_INDICATOR_HIST",
+            "Master Scenario Name": "MASTER_SCENARIO_WEEKLY_REFRESH",
+            "Scenario Name": "BEHAVIORAL_INDICATOR_SCENARIO",
+            "Dependency Flag": "Y"
+        },
+        {
+            "TC_ID": "TC_Audit_Check_013",
+            "Name": "HCP_NETWORK",
+            "snow_query": "SELECT DISTINCT MAX(DATA_AS_OF_DATE) AS DATA_AS_OF_DATE FROM COM_US_PHARMA_NGE_PRV.PHARMA_NGE_C360.C360_HCP_NETWORK",
+            "Master Scenario Name": "MASTER_SCENARIO_WEEKLY_REFRESH",
+            "Scenario Name": "HCP_NETWORK_GRAPH_SCENARIO",
+            "Dependency Flag": "Y"
+        },
+        {
+            "TC_ID": "TC_Audit_Check_014",
+            "Name": "HCP_NETWORK_HIST",
+            "snow_query": "SELECT DISTINCT MAX(DATA_AS_OF_DATE) AS DATA_AS_OF_DATE FROM COM_US_PHARMA_NGE_PRV.PHARMA_NGE_C360.C360_HCP_NETWORK_hist",
+            "Master Scenario Name": "MASTER_SCENARIO_WEEKLY_REFRESH",
+            "Scenario Name": "HCP_NETWORK_GRAPH_SCENARIO",
+            "Dependency Flag": "Y"
+        }
+    ]
+}

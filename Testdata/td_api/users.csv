@@ -1,0 +1,8 @@
+Method_Type,Endpoint_URL,Parameters,Payload
+GET,https://reqres.in/api/users?page=2,,
+GET,https://reqres.in/api/users/23,,
+GET,https://reqres.in/api/unknown,,
+GET,https://reqres.in/api/unknown/2,,
+GET,https://reqres.in/api/users/2,,
+
+

@@ -1,0 +1,17 @@
+Method_Type,Endpoint_URL,Parameters,Payload
+POST,https://reqres.in/api/register,,"{
+    ""email"": ""eve.holt@reqres.in"",
+    ""password"": ""pistol""
+}"
+POST,https://reqres.in/api/register,,"{
+    ""email"": ""sydney@fife"",
+}"
+POST,https://reqres.in/api/login,,"{
+    ""email"": ""eve.holt@reqres.in"",
+    ""password"": ""cityslicka""
+}"
+POST,https://reqres.in/api/login,,"{
+    ""email"": ""peter@klaven""
+}"
+
+
